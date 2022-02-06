@@ -1,6 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DevelopersLifeApp</string>
     <string name="txt_connection_lost">Произошла ошибка при загрузке данных. Проверьте подключение к сети.</string>
     <string name="txt_retry_connection">ПОВТОРИТЬ</string>
-    <string name="toolbar_title">Developers Life</string>
 </resources>

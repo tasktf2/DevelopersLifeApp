@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/progress_circular_background">
+        <shape
+            android:innerRadius="30dp"
+            android:shape="ring"
+            android:thickness="20dp"
+            android:useLevel="false">
+            <solid android:color="@color/design_default_color_background" />
+        </shape>
+    </item>
+    <item android:id="@+id/progress_circular">
+        <rotate android:toDegrees="360">
+            <shape
+                android:innerRadius="35dp"
+                android:shape="ring"
+                android:thickness="10dp"
+                android:useLevel="false">
+                <gradient
+                    android:endColor="@color/cardview_dark_background"
+                    android:startColor="@color/design_default_color_background"
+                    android:type="sweep" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
