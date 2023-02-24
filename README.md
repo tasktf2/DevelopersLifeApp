@@ -17,7 +17,8 @@ go through the posts that we had loaded, and then how they end - upload new ones
 implementation of transitions "back".
 4. Different states of data loading should be provided: error
 downloads, download and successful download.
-It would be great (but not required) if you take care of the following:
+
+## It would be great (but not required) if you take care of the following:
 - Application will be written in Kotlin
 - General smoothness and stability of the app
 - Ability to display gif images from three different site categories: hot, latest popular
