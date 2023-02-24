@@ -22,3 +22,12 @@ downloads, download and successful download.
 - Application will be written in Kotlin
 - General smoothness and stability of the app
 - Ability to display gif images from three different site categories: hot, latest popular
+
+## The application implements:
+- Fragment
+- ViewBinding
+- OkHttp
+- Retrofit
+- Glide
+- RxJava
+- MVP
